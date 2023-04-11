@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Contact us</title>
+  </head>
+  <body>
+    <nav
+      class="navbar bg-dark navbar-expand-lg shadow nav-position"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#myNavContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          <img class="logo-size" src="images/logo.png" alt="logo" />
+        </a>
+
+        <div class="collapse navbar-collapse" id="myNavContent">
+          <ul class="navbar-nav me-auto mb-lg-0 mb-2">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container top-space">
+      <div class="row form-style">
+        <!-- <div class=""> -->
+        <form action="">
+          <div>
+            <label class="form-label mt-2" for="name">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              name="name"
+              id="name"
+              required
+            />
+          </div>
+
+          <div>
+            <label class="form-label mt-2" for="email">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              name="email"
+              id="email"
+              required
+            />
+          </div>
+
+          <div>
+            <label class="form-label mt-2" for="phoneNumber"
+              >Phone Number</label
+            >
+            <input
+              type="tel"
+              name="phoneNumber"
+              id="phoneNumber"
+              class="form-control"
+              required
+            />
+          </div>
+
+          <div>
+            <label class="form-label mt-2" for="">Message</label>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              class="form-control"
+              required
+            ></textarea>
+          </div>
+
+          <button class="btn btn-primary mt-4 mb-4">Submit</button>
+        </form>
+        <!-- </div> -->
+      </div>
+    </div>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
